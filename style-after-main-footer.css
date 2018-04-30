@@ -173,7 +173,7 @@ input[type="text"]{
 
 input[type="submit"]{
   background-color: #3333ff;
-  padding: 15px;
+  padding: 3%;
   border: hidden;
   color: white;
 }
@@ -186,4 +186,34 @@ input[type="submit"]{
   margin-left: 4%;
   margin-top: -50px;
   padding-bottom: 90px;
+}
+
+
+@media only screen and (max-width: 600px){
+  .imgText{
+    font-size: 2em;
+  }
+  .imgText1{
+    font-size: 0.8em;
+  }
+.cap-text{
+  font-size: 1em;
+}
+.blur{
+    font-size: 0.8em;
+  }
+  .blue{
+    font-size: 0.8em;
+  }
+  .main{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 89%;
+  }
+  .tags{
+    margin-top: 40%;
+  }
+
 }

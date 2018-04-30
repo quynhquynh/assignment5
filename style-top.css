@@ -75,7 +75,7 @@ a:active {
 .imgText{
   text-transform: capitalize;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 3em;/*em fix responsive*/
   margin-top: 25px;
   margin-bottom: 15px;
 }
@@ -118,13 +118,13 @@ a:active {
   background: #008000;
   padding: 3px 13px 3px 13px;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 1.2em;
 }
 
 .imgText1{
   text-transform: capitalize;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.3em;
   width: 60%;
   margin-top: 25px;
   margin-bottom: 15px;
@@ -178,4 +178,5 @@ a:active {
 
 #watch, #beetle, #guitar{
   opacity: 0.5;
+  /* o.. fitcontain/cover*/
 }
