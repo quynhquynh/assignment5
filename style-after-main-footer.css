@@ -196,15 +196,6 @@ input[type="submit"]{
   .imgText1{
     font-size: 0.8em;
   }
-.cap-text{
-  font-size: 1em;
-}
-.blur{
-    font-size: 0.8em;
-  }
-  .blue{
-    font-size: 0.8em;
-  }
   .main{
     width: 75%;
     margin: 0 auto;
@@ -215,5 +206,18 @@ input[type="submit"]{
   .tags{
     margin-top: 40%;
   }
-
+  .below-main {
+      display: grid;
+      grid-gap: 25px;
+      grid-template-columns: [col-line-0] 1fr [col-line-1] 1fr [col-line-2] 1fr [col-line-3];
+      grid-template-rows: [row-line-0] 70px [row-line-1] 200px [row-line-2] 200px[row-line-3] 200px [row-line-4];
+  }
+  .item-inline {
+      position: absolute;
+      left: 0;
+      top: 60%;
+  }
+  .item-1, .item-2, .item-3, .item-4, .item-5, .item-6{
+    padding-top: 0;
+  }
 }
